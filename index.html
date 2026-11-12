@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad de Mi Billetera</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0;
+      background: #f4f6f9;
+      color: #1b2432;
+      font: 1rem/1.65 system-ui, sans-serif;
+    }
+    main {
+      box-sizing: border-box;
+      max-width: 48rem;
+      padding: clamp(1.25rem, 5vw, 3rem);
+      margin: 0 auto;
+      background: #fff;
+      min-height: 100vh;
+    }
+    h1 { margin-top: 0; font-size: clamp(1.8rem, 5vw, 2.45rem); line-height: 1.2; }
+    h2 { margin-top: 2rem; font-size: 1.25rem; line-height: 1.35; }
+    li + li { margin-top: .75rem; }
+    code { overflow-wrap: anywhere; }
+    a { color: #174caa; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #141a23; color: #eef2f8; }
+      main { background: #1d2734; }
+      a { color: #9fc6ff; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad de Mi Billetera</h1>
+  <p>Última actualización: 12 de noviembre de 2026<br>
+  Aplicación: Mi Billetera para Android (<code>com.mibilletera.app</code>), versión 1.0.1<br>
+  Desarrollador: Draxor</p>
+
+  <h2>1. Cómo funciona Mi Billetera</h2>
+  <p>Mi Billetera permite llevar un registro personal de ingresos, gastos, ahorros, deudas y períodos de pago. La aplicación funciona en el dispositivo y no requiere una cuenta. Los registros financieros no se envían al desarrollador ni a un servidor de la aplicación.</p>
+
+  <h2>2. Datos que usa la aplicación</h2>
+  <ul>
+    <li><strong>Registros financieros.</strong> La aplicación guarda la información que anotas, como montos, descripciones, categorías, fechas, medios de pago, cuotas, ahorros y estados de pago. Usa esos datos para calcular el presupuesto, mostrar el historial y generar los análisis. Los análisis se calculan en el dispositivo.</li>
+    <li><strong>Región e idioma.</strong> Para sugerir una moneda, la aplicación consulta el código de país que Android proporciona a partir de la SIM o de la red móvil. Si ese dato no está disponible, usa la región configurada en el dispositivo. La aplicación usa esa información para la sugerencia de moneda, sin solicitar acceso a la ubicación GPS ni leer el número telefónico. Puedes confirmar o cambiar la moneda y elegir el idioma en Configuración.</li>
+    <li><strong>Preferencias.</strong> La moneda elegida, el idioma, la apariencia, las fechas de pago y las opciones de recordatorio se guardan en el dispositivo.</li>
+  </ul>
+  <p>La aplicación no se conecta a tu banco, no solicita credenciales bancarias ni números de tarjeta, y no accede a tus contactos, mensajes, cámara o micrófono.</p>
+
+  <h2>3. Permisos y recordatorios</h2>
+  <p>Los recordatorios son opcionales. La aplicación usa el permiso de notificaciones cuando Android lo exige y recibe avisos del sistema, como el reinicio del teléfono, para volver a programarlos. Los avisos se generan localmente y no incluyen montos. Puedes desactivar los recordatorios en Mi Billetera o revocar el permiso desde los ajustes de Android.</p>
+
+  <h2>4. Exportaciones, respaldos y destinatarios</h2>
+  <p>La aplicación no incorpora anuncios, rastreadores ni servicios de analítica. Tampoco vende datos ni comparte automáticamente tus registros con terceros.</p>
+  <p>Cuando exportas un CSV o Excel, o creas un respaldo <code>.mibilletera</code>, Android te permite elegir dónde guardarlo. Si eliges un proveedor de almacenamiento en la nube o compartes el archivo, ese proveedor o destinatario puede recibir su contenido por decisión tuya. El tratamiento que haga el proveedor se rige por sus propias condiciones y política de privacidad.</p>
+  <p>Los archivos exportados y los respaldos pueden contener información financiera en un formato legible y no están cifrados por Mi Billetera. Al restaurar, la aplicación lee el archivo que seleccionas y, antes de reemplazar la base activa, guarda una copia local de los datos anteriores. También puede guardar una copia privada al actualizar la estructura de la base de datos.</p>
+
+  <h2>5. Seguridad, conservación y eliminación</h2>
+  <p>La base de datos, los ajustes y las copias internas se guardan en el almacenamiento privado que Android asigna a Mi Billetera. La aplicación configura la exclusión de esos datos del respaldo automático y de la transferencia del sistema. Los archivos que guardas manualmente fuera de la app se rigen por el lugar que elegiste.</p>
+  <p>Los registros se conservan en el dispositivo hasta que los eliminas, restauras otro respaldo o borras los datos de la aplicación. En <strong>Configuración → Borrar todos los registros</strong> puedes borrar los registros financieros de la base activa. Esta opción no elimina los CSV, Excel o respaldos que guardaste por tu cuenta y puede dejar copias internas anteriores. Para eliminar también las copias internas de Mi Billetera, usa <strong>Borrar almacenamiento</strong> en la información de la aplicación en Android. Los archivos que hayas guardado o compartido fuera de la aplicación debes eliminarlos en su ubicación o servicio.</p>
+
+  <h2>6. Contacto y cambios de esta política</h2>
+  <p>Para consultas de privacidad, escribe a <a href="mailto:ayudasigmapp@gmail.com">ayudasigmapp@gmail.com</a>. Si decides contactar al desarrollador, los datos que incluyas en tu mensaje se usarán para atender tu consulta y se conservarán durante el tiempo necesario para gestionarla. Evita enviar contraseñas, credenciales o archivos financieros en tu mensaje.</p>
+  <p>La fecha al inicio identifica la última actualización. Si cambia la forma en que Mi Billetera trata los datos, esta política se actualizará antes de aplicar el cambio.</p>
+</main>
+</body>
+</html>
